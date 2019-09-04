@@ -1,0 +1,110 @@
+:root {
+    --bg-primary: #232323;
+    --bg-dark: #101010;
+    --fg-primary: white;
+}
+
+html, body, .accordion-title {
+    background-color: var(--bg-primary);
+}
+
+header {
+    background-color: var(--bg-dark);
+}
+
+.title,
+.dropdown-menu,
+.dropdown-menu:hover,
+h1,
+h2,
+#task-summary h2,
+h3,
+p,
+.sidebar > ul li.active a,
+.sidebar > ul a,
+.activity-title,
+.project-overview-column strong,
+.project-overview-column small,
+.table-list-header .table-list-header-count,
+.table-list-row .table-list-title a,
+.table-list-row .table-list-details strong,
+legend,
+label,
+.page-header h2 a
+{
+    color: var(--fg-primary);
+}
+
+a {
+    color: #ccccff;
+}
+
+.accordion-title h3 {
+    color: var(--fg-primary);
+    background: inherit;
+}
+
+.accordion-title {
+    background: none;
+}
+
+.logo a {
+    opacity: 1;
+}
+
+a:hover, .logo a > span, .logo a:hover, .sidebar > ul a:hover {
+    color: #c0c0c0;
+}
+
+.fa {
+    color: var(--fg-primary) !important;
+}
+
+input, .select-dropdown-input-container, .panel {
+    background-color: black;
+    color: var(--fg-primary) !important;
+}
+
+.task-board .fa, .views-switcher-component .fa, .buttons-header .fa, .dropdown-submenu-open .fa {
+    color: #333 !important;
+}
+
+body > header > div.title-container > h1 > span.tooltip > i {
+    display: none;
+}
+
+.board-column-header, .activity-event:nth-child(even), .table-list-header, .table-list-row:nth-child(odd) {
+    background-color: #333333;
+}
+
+.activity-event:hover, .table-list-row:hover {
+    background-color: var(--bg-dark)
+}
+
+.table-list-row:hover {
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.task-summary-column a {
+    color: #36c
+}
+
+.alert.alert-info {
+    background-color: #004a6d;
+    color: var(--fg-primary);
+}
+
+#modal-box {
+    background-color: #303030
+}
+
+table.table-striped tr:nth-child(2n+1) {
+    background: #000;
+    color: var(--fg-primary);
+}
+
+table th {
+    background-color: inherit;
+    color: var(--fg-primary);
+}
