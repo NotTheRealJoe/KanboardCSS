@@ -1,6 +1,7 @@
 :root {
     --bg-primary: #232323;
     --bg-dark: #101010;
+    --bg-xdark: black;
     --fg-primary: white;
 }
 
@@ -107,4 +108,12 @@ table.table-striped tr:nth-child(2n+1) {
 table th {
     background-color: inherit;
     color: var(--fg-primary);
+}
+
+.comments .comment:nth-child(2n):not(.comment-highlighted) {
+    background: var(--bg-dark);
+}
+
+.comments .comment:nth-child(2n):not(.comment-highlighted):hover {
+    background: var(--bg-xdark);
 }
