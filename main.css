@@ -1,7 +1,7 @@
 :root {
     --bg-primary: #232323;
     --bg-dark: #101010;
-    --bg-xdark: black;
+    --bg-xdark: #080808;
     --fg-primary: white;
 }
 
@@ -56,6 +56,10 @@ a {
 
 a:hover, .logo a > span, .logo a:hover, .sidebar > ul a:hover {
     color: #c0c0c0;
+}
+
+.task-board-title a:hover {
+    color: black;
 }
 
 .fa {
@@ -121,5 +125,3 @@ table th {
 .comments .comment:not(.comment-highlighted):hover, .comments .comment:nth-child(2n):not(.comment-highlighted):hover {
     background: var(--bg-xdark);
 }
-
-.comments
