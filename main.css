@@ -31,7 +31,8 @@ p,
 .table-list-row .table-list-details strong,
 legend,
 label,
-.page-header h2 a
+.page-header h2 a,
+.comment-username
 {
     color: var(--fg-primary);
 }
@@ -61,7 +62,7 @@ a:hover, .logo a > span, .logo a:hover, .sidebar > ul a:hover {
     color: var(--fg-primary) !important;
 }
 
-input, .select-dropdown-input-container, .panel {
+input, .select-dropdown-input-container, .panel, textarea {
     background-color: black;
     color: var(--fg-primary) !important;
 }
@@ -100,9 +101,12 @@ body > header > div.title-container > h1 > span.tooltip > i {
     background-color: #303030
 }
 
+table.table-striped tr {
+    color: var(--fg-primary);
+}
+
 table.table-striped tr:nth-child(2n+1) {
     background: #000;
-    color: var(--fg-primary);
 }
 
 table th {
@@ -114,6 +118,8 @@ table th {
     background: var(--bg-dark);
 }
 
-.comments .comment:nth-child(2n):not(.comment-highlighted):hover {
+.comments .comment:not(.comment-highlighted):hover, .comments .comment:nth-child(2n):not(.comment-highlighted):hover {
     background: var(--bg-xdark);
 }
+
+.comments
