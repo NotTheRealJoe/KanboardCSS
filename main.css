@@ -1,10 +1,3 @@
-:root {
-    --bg-primary: #232323;
-    --bg-dark: #101010;
-    --bg-xdark: #080808;
-    --fg-primary: white;
-}
-
 html, body, .accordion-title {
     background-color: var(--bg-primary);
 }
