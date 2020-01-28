@@ -1,0 +1,6 @@
+.task-board-assignee,
+.task-icon-age,
+.task-priority
+{
+    color: var(--card-fg-primary);
+}

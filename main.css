@@ -25,7 +25,9 @@ p,
 legend,
 label,
 .page-header h2 a,
-.comment-username
+.comment-username,
+th,
+td
 {
     color: var(--fg-primary);
 }
