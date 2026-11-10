@@ -5,3 +5,10 @@ div.task-board-icons-row > span
 {
     color: var(--card-fg-primary);
 }
+
+.task-board-sort-handle.ui-sortable-handle {
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
