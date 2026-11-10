@@ -27,7 +27,10 @@ label,
 .page-header h2 a,
 .comment-username,
 th,
-td
+td,
+li,
+small,
+.comment-sorting a
 {
     color: var(--fg-primary);
 }
@@ -119,4 +122,8 @@ table th {
 
 .comments .comment:not(.comment-highlighted):hover, .comments .comment:nth-child(2n):not(.comment-highlighted):hover {
     background: var(--bg-xdark);
+}
+
+.views > li {
+    color: var(--card-fg-primary);
 }

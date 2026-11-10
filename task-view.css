@@ -1,3 +1,11 @@
 .accordion-title {
     color: var(--fg-primary);
 }
+
+.task-summary-column > ul > li {
+    color: var(--card-fg-primary)
+}
+
+.comment {
+    border-radius: var(--cardiform-border-radius);
+}
